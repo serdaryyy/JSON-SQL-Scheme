@@ -1,0 +1,174 @@
+html, body {
+    background:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/-hc9b5b/malaysia-coins-falling-slow-motion-on-white-background-business-finance-currency-concept-1080p-250fps_vkgzplmbx__F0000.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-color: #FFFFFF;
+      -moz-background-size: cover;
+    -o-background-size: cover;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+
+
+	#container {
+		width:100%;
+		height:100%;
+		position: relative; 
+	}
+
+	#headerdiv {
+		background-color: #FFFFFF; 
+		white-space: nowrap;
+		text-align: center;
+	}
+
+	#content {
+		top: 10%
+		height: 80%;
+		background-color: #FFFFFF;
+	}
+
+
+		body{margin: 0;
+			padding: 0;
+      		font-family: 'Arial', sans-serif;
+			background-color: #3498db;
+
+			}
+		
+		.wrap {
+      font-family: Arial;
+			width: 400px;
+			box-sizing: border-box;
+			overflow: hidden;
+			margin: auto;
+			margin-top: 30px;
+			padding: 20px;
+			background:#fff;
+			opacity: 0.95;
+		}
+	.wrap input {
+        width: 100%;
+		    box-sizing: border-box;
+		    color: silver; 
+				height: 35px;
+				background: #CF2020;
+				margin-bottom: 30px;
+				border-radius: 12px;
+				border: 1px solid silver;
+				padding: 10px;
+        background-color: #ff0000;
+			}	
+.navbar {
+    overflow: hidden;
+    background-color: #ff3333;
+    font-family: Arial;
+    opacity: 0.8;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #b30000;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff8080;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+  }
+
+.dropdown-content a:hover {
+    background-color: #ff6666;
+}
+
+.show {
+    display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px Arial;  
+  color: black;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #ff0000;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%
+}
+
+input[type=text] {
+  background-color: #ff0000;
+  color: black;
+  width: 100%;
+}
+input[type=date]{
+  font-family: Arial;
+  color:  #887674;
+
+}
+input[type=button]{
+  font-family: Arial;
+  font-size: 16pt;
+  background-color: #CC0000;
+  padding: 10px;
+}
+input[type=search] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=search]:focus {
+    width: 100%;
+}

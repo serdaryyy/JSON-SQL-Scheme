@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> JSON</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+
+	<style>
+		<style >
+    html, body {
+        background:url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/-hc9b5b/malaysia-coins-falling-slow-motion-on-white-background-business-finance-currency-concept-1080p-250fps_vkgzplmbx__F0000.png")no-repeat center center fixed;
+        -webkit-background-size: cover;
+        background-color: #FFFFFF;
+    -moz-background-size: cover;
+        -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial;
+        }
+
+    .navbar {
+        overflow: hidden;
+        background-color: #ff3333;
+        font-family: Arial;
+        opacity: 0.8;
+        width: 100%;
+
+    }
+
+    .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        position: relative;
+    }
+		.wrap {
+			width: 320px;
+			box-sizing: border-box;
+			overflow: hidden;
+			margin: auto;
+			margin-top: 100px;
+			padding: 20px;
+			background:#fff;
+			border: 1px solid silver;
+			opacity: 0.95;
+			border-style: none;
+		}
+	.wrap input {width: 100%;
+		box-sizing: border-box;
+				height: 35px;
+				margin-bottom: 15px;
+				border-radius: 5px;
+				border: 1px solid silver;
+				padding: 5px;
+				background-color: #cc1200;
+				color: white;
+
+
+			}	
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 4px;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #b30000;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff8080;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #ff6666;
+}
+
+.show {
+    display: block;
+}
+
+#footer{
+	position: fixed;
+	bottom: 0;
+	right: 650px;
+
+}
+    .box {
+            width: 320px;
+            box-sizing: border-box;
+            overflow: hidden;
+            margin: auto;
+            margin-top: 100px;
+            padding: 20px;
+            background:#fff;
+            border: 1px solid silver;
+            opacity: 0.95;
+            border-radius: 10px; 
+            border-style: none;
+        }
+    .box input {width: 100%;
+        box-sizing: border-box;
+        height: 35px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+        border: 1px solid silver;
+        padding: 5px;
+            }   
+    button{
+        width: 20%;
+        height: 3%;
+        padding: 5px 5px;
+        border-radius: 16px;
+        border-color: #737373;
+        background-color: #FFFFFF;
+    }
+    p{
+        font-family: arial;
+
+    }
+
+    .submit {
+    width: 50%;
+    margin-left: 25%;
+    padding: 10px 18px;
+    border-radius: 16px;
+    border-color: #737373;
+    background-color: #FFFFFF;
+}
+	</style>
+
+<body>
+	<header id="headerdiv">
+		<div>
+			<img src="http://contractsolutions-inc.com/wp-content/uploads/2015/03/CSIlogo_large_jpeg.jpg" alt="CSI" width="300" height="180" style="margin-left: 40%" />
+		</div> 
+	</header>
+
+	<div class="navbar">
+		<a href="index.html" ">HOME</a> 
+		<div class="dropdown">
+			<button class="dropbtn" onclick="myFunction()" style="padding: 8px;">MORE...
+				<i class="fa fa-caret-down"></i>
+			</button>
+			<div class="dropdown-content" id="myDropdown">
+				<a href="successpage.html">My Flight Information</a>
+				<a href="Json.html">Book a flight</a>
+			</div>
+		</div>
+	</div> 
+</div>
+</form>
+</div>
+
+	<div class="wrap">
+
+		<a href="Json.html"><input type="button" value="Book a Flight" style="font-family: arial; font-size: 12pt; padding-top: 15px; padding-bottom: 15px;"></input></a>
+
+		<a href="FlightInformation.html"><input type="button" value="Flight Information" style="font-family: arial; font-size: 12pt; padding-top: 15px; padding-bottom: 15px;"></input></a>
+
+		
+	</form>
+
+</div>
+</div>
+<script>
+	function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+
+</body>
+</html>
