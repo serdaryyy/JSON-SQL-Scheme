@@ -95,7 +95,7 @@ var Class;
   window.CustomEvent = CustomEvent;
 })();
 
-// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
+// requestAnimationFrame polyfill by Erik MÃ¶ller. fixes from Paul Irish and Tino Zijdel
 // MIT license
 (function() {
     var lastTime = 0;
