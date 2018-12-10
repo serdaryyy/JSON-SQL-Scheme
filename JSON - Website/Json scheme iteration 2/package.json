@@ -1,0 +1,11 @@
+{
+  "name": "JSON scheme",
+  "version": "1.0.0",
+  "dependencies": {
+    "@json-editor/json-editor": "^1.2.1",
+    "express": "^4.16.4",
+    "install": "^0.12.2",
+    "mysql": "^2.16.0",
+    "npm": "^6.4.1"
+  }
+}
