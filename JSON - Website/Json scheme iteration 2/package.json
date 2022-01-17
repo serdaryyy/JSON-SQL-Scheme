@@ -6,6 +6,12 @@
     "express": "^4.16.4",
     "install": "^0.12.2",
     "mysql": "^2.16.0",
-    "npm": "^6.4.1"
-  }
+    "npm": "^7.21.0",
+    "@snyk/protect": "latest"
+  },
+  "scripts": {
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
+  },
+  "snyk": true
 }
